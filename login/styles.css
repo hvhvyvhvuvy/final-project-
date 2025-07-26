@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
+
 }
 
 header {
@@ -80,3 +81,86 @@ nav {
   cursor: pointer;
 }
 
+
+
+
+.form-container {
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 4%;
+  max-width: 1216px;
+  max-height: 1000px;
+  box-sizing: border-box;
+  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.form-container h2 {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="date"] {
+  width: 100%;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border: 1.5px solid #000;
+  border-radius: 25px;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.gender {
+  margin: 15px 0;
+  text-align: center;
+}
+
+.gender label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.gender-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gender-btn {
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 1.5px solid #000;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s;
+}
+
+.gender-btn:hover {
+  background-color: #eaeaea;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #c5dca0;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #b2ca89;
+}
